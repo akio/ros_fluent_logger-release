@@ -1,0 +1,12 @@
+Source: ros-kinetic-fluent-logger-ros
+Section: misc
+Priority: extra
+Maintainer: Akiyoshi Ochiai <akio.code@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libmsgpack-dev, ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-rosgraph-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-fluent-logger-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmsgpack-dev, ros-kinetic-roscpp, ros-kinetic-rosgraph-msgs
+Description: Logging tools for fluentd
